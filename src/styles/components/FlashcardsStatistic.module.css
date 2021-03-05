@@ -1,0 +1,95 @@
+.statisticContainer{
+    margin-left: 3rem;
+    width: 25rem;
+    height: 41.6rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statisticContainer img{
+    width: 9rem;
+    height: 9rem;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.statisticContainer h2{
+    margin-top: 2.86rem;
+    margin-bottom: 0.5rem;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--green);
+}
+
+.statistic{
+    width: 17rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+
+.statistic p{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.statistic:nth-child(4) .numberStatistic{
+    color: var(--red)
+}
+
+.statistic:nth-child(5) .numberStatistic{
+    color: var(--green);
+}
+
+.statistic:nth-child(6) .numberStatistic{
+    color: var(--purple);
+}
+
+.CreateFlashcardButton{
+    width: 21.3rem;
+    height: 5rem;
+
+    background: var(--green);
+
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    transition: filter 0.2s;
+
+    margin-top: 2.6rem;
+}
+
+.CreateFlashcardButton:hover{
+    filter: brightness(0.7);
+}
+
+.DeleteFlashcardButton{
+    width: 21.3rem;
+    height: 5rem;
+
+    background: var(--purple);
+
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    transition: filter 0.2s;
+
+    margin-top: 1rem;
+}
+
+.DeleteFlashcardButton:hover{
+    filter: brightness(0.7);
+}
