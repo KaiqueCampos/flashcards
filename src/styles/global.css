@@ -11,6 +11,8 @@
     --green: #00FF19;
     --purple: #5965E0;
     --purple-dark: #293078;
+    --deep-purple: #1C225C;
+    --black-purple:  #111542;
 }
 
 @media(max-width: 1080px) {

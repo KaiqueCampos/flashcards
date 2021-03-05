@@ -1,4 +1,5 @@
 import  Head  from "next/head";
+import { Flashcards } from "../components/Flashcards";
 import { NavBar } from "../components/NavBar";
 
 export default function Home() {
@@ -12,11 +13,9 @@ export default function Home() {
 
       <NavBar/>
 
-      <a href="/Login">Clique em mim</a>
-
-
-
-
+      <section>
+        <Flashcards/>
+      </section>
 
     </div>
 

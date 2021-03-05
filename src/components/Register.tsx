@@ -32,7 +32,7 @@ export function RegisterForm() {
 
             <button type="submit" className={styles.submitButton}>
                 <img src="./img/login.png" />
-                Login
+                Registrar-se
             </button>
 
             <div className={styles.linkContainer}>

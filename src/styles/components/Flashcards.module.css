@@ -1,0 +1,150 @@
+.flashcardsContainer {
+    width: 35rem;
+    height: 41.6rem;
+    border-radius: 10px;
+    background: var(--purple-dark);
+    padding: 2.73rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flashcardsContainer div {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.flashcardsContainer div ~ div{
+    margin-top: 0.5rem;
+}
+
+.legend {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.editButton {
+    transition: transform 0.2s;
+    background: none;
+    border: none;
+}
+
+.editButton img {
+    width: 3rem;
+    height: 2.8rem;
+}
+
+.editButton:hover {
+    transform: scale(1.1);
+}
+
+.flashcardsResultButton img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.flashcardText {
+    width: 31rem;
+    height: 7.6rem;
+
+    background: var(--deep-purple);
+    color: #fff;
+    
+    margin-top: 0.7rem;
+    padding: 1.3rem;
+    text-align: justify;
+
+    font-weight: 400;
+    font-size: 1.1rem;
+
+    border:none;
+    border-radius: 10px;
+
+    resize: none;
+}
+
+.flashcardText ~ .flashcardText {
+    height: 15rem;
+}
+
+.flashcardText::-webkit-scrollbar{
+    border-radius: 0 10px 10px 0;
+    background: var(--black-purple);
+}
+
+.flashcardText::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--purple);
+}
+
+.showButton{
+    width: 8.6rem;
+    height: 2rem;
+
+    background: var(--purple);
+
+    border: none;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+
+    transition: border-radius 0.2s;
+}
+
+.showButton:hover{
+    border-radius: 2px;
+}
+
+.flashcardsResultButton{
+    width: 16rem;
+    height: 5.06rem;
+
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 15px 0 0 15px;
+
+    background: var(--red);
+
+    font-weight: 700;
+    font-size: 1.3rem;
+
+    transition: filter 0.2s;
+}
+
+.flashcardsResultButton ~ .flashcardsResultButton{
+    background: var(--green);
+    border-radius: 0 15px 15px 0;
+}
+
+.flashcardsResultButton:hover{
+    filter: brightness(0.7);
+}
+
+.flashcardsResultButton img{
+    margin-right: 0.5rem;
+}
+
+.flashcardsResultButton ~.flashcardsResultButton img{
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
