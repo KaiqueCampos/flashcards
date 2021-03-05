@@ -1,4 +1,5 @@
 import  Head  from "next/head";
+import { NavBar } from "../components/NavBar";
 
 export default function Home() {
   return (
@@ -9,7 +10,14 @@ export default function Home() {
         <title>Home | Flashcards</title>
       </Head>
 
+      <NavBar/>
+
       <a href="/Login">Clique em mim</a>
+
+
+
+
+
     </div>
 
   )

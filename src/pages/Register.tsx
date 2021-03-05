@@ -1,6 +1,6 @@
 import  Head  from "next/head";
-import { RegisterForm } from "../components/login/Register";
-import { LogoBanner } from "../components/login/LogoBanner";
+import { RegisterForm } from "../components/Register";
+import { LogoBanner } from "../components/LogoBanner";
 
 
 export default function Register() {
@@ -8,7 +8,7 @@ export default function Register() {
         <div className="container">
 
             <Head>
-                <title>Login | Flashcards</title>
+                <title>Register | Flashcards</title>
             </Head>
 
             <main>

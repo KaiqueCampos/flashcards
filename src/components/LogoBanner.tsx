@@ -1,4 +1,4 @@
-import styles from '../../styles/components/LogoBanner.module.css';
+import styles from '../styles/components/LogoBanner.module.css';
 
 export function LogoBanner() {
     return(
